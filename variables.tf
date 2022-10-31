@@ -8,7 +8,7 @@ locals {
   default = {
     # resource definition
     static_site = {
-      name = ""
+      name     = ""
       sku_tier = "Standard"
       sku_size = "Standard"
       identity = {
